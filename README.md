@@ -1,0 +1,1 @@
+Ini adalah website sederhana yang menampilkan biografi Leila S. Chudori yang merupakan seorang penulis Indonesia, dan menampilkan beberapa karyanya. Website sederhana ini merupakan penerapan dari HTML, CSS, dan JavaScript.

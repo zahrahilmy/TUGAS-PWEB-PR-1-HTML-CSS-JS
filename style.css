@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background: url('img/bg.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.cont {
+    display: flex; 
+    flex-direction: row;
+}
+.biografi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    height: 610px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.bukukiri,.bukukanan{
+    display: flex; 
+    flex-direction: row;
+    gap: 15px; 
+}
+.kiri {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.kiri img {
+    width: 300px; /* Memperbesar foto profil */
+    height: 300px;
+    border-radius: 10px;
+    display: block;
+    margin-left: 25%;
+}
+.bukukiri img, .bukukanan img {
+    width: 100px; /* Memperkecil ukuran foto cover buku */
+    height: auto;
+}
+
+.bio-text {
+    text-align: left;
+    /* margin: 0%; */
+}
+.text {
+    text-align: justify;
+    font-size:smaller;
+}
+.kanan {
+    padding-left: 10%;
+    padding-right: 5%;
+}
+/* .bukukanan {
+    align-items: center;
+} */
+
+.nb{
+    font-size: x-small;
+    color:cornflowerblue;
+    padding-top: 2%;
+}
+
+.bka6 img{
+    height: 147px;
+}
+.ttl {
+    font-size: small;
+}
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    background: white;
+    padding: 21px;
+    margin: 15%;
+    margin-left: 30%;
+    border-radius: 10px;
+    width: 50%;
+    max-width: 500px;
+    text-align: center;
+    align-self: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    /* position: flex; */
+}
+#popup-description {
+    text-align: justify;
+    padding: 4%;
+}
+#popup-rating {
+    font-size: small;
+}
+.close {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+
